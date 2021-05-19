@@ -1,0 +1,108 @@
+* {
+    -bg-color : transparent;
+    -font-color : white;
+    -text-field-prompt-text : #ffdd32;
+    -text-field-border-color : #ff0505;
+    -icon-color : -font-color;
+}
+
+Label
+{
+    -fx-text-fill : -font-color ;
+}
+
+.dashboard{
+    -fx-background-image: url("bg.jpg");
+    -fx-background-repeat:stretch;
+    -fx-background-size:  100%  100%;
+    -fx-background-position: bottom ;
+}
+
+.action_box
+{
+	-fx-effect: dropshadow( three-pass-box , rgba(191,127,63,1) , 20,0.02,0,0);
+
+}
+
+.dashboard_settings_button
+{
+	-fx-background-color:orangered;
+}
+
+.root {
+    -fx-focus-color: -fx-accent;
+    -fx-base: -bg-color;
+    -fx-background-color: orangered
+    -fx-text-fill: -font-color ;
+}
+
+.ikonli-font-icon
+{
+    -fx-icon-color: -icon-color;
+}
+
+.settings_base, .settings_base_vbox, .settings_button_bar{
+    -fx-background-color :  orangered;
+}
+
+
+.settings_base_scroll_pane {
+    -fx-background: orangered;
+    -fx-border-color: orangered;
+}
+
+
+.text-field
+{
+    -fx-text-fill: -font-color ;
+    -fx-prompt-text-fill: -text-field-prompt-text;
+    -fx-background-color : orangered;
+    -fx-border-width : 0 0 1 0;
+    -fx-border-color: -text-field-prompt-text;
+}
+
+
+
+.alert_pane
+{
+    -fx-background-color : orangered;
+    -fx-border-color : orangered;
+}
+
+.alert_content_pane
+{
+    -fx-background-color: orangered;
+    -fx-padding: 5;
+}
+
+.alert_scroll_pane
+{
+    -fx-background:  orangered;
+    -fx-border-color: orangered;
+}
+
+.alert_button_bar
+{
+    -fx-background-color: orangered;
+}
+
+.combo_box
+{
+    -fx-alignment:CENTER_LEFT;
+    -fx-pref-width:200;
+    -fx-padding: 5;
+    -fx-border-width : 1;
+    -fx-border-color : lawngreen;
+    -fx-border-radius : 3;
+}
+
+.combo_box_popup
+{
+    -fx-background: orangered;
+    -fx-border-color: orangered;
+}
+
+.combo_box_popup_vbox
+{
+    -fx-background-color: orangered;
+}
